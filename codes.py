@@ -108,11 +108,23 @@ for x in schools:
       break
    
 y = "content of life"
+
 def my_life():
   global y
   y =  "it has being a rollarcostal!"
 my_life()  
 print(y)
+
+
+def my_function(name, dept):
+  print(name + " is good child" + dept)
+
+
+my_function("Emil", " in 200lv")
+my_function("Tobias", " in 300lv")
+my_function("Linus", " in 400lv")
+
+
 
 
   
