@@ -21,3 +21,65 @@ def lam(y):
     return lambda b: b * y
 small = lam(4)
 print(small(6))
+
+
+def myfunc(n):
+    return lambda b: b + n
+    
+intro = myfunc("James")
+print(intro(" Mr"))
+
+
+"""def modifyUser(user):
+    return lambda title: title + user
+
+
+modifier = modifyUser("James")
+
+print(modifier("Mr "))"""
+
+
+def myname():
+    intro = "my name is Daniel"
+    print(intro)
+myname()   
+
+
+def foo():
+    return "food"
+
+def baz():
+    return foo
+
+
+print(baz()())
+
+
+def company(name):
+    profile = "Mr " + name
+    return profile
+user = company("Abdul")
+def trial():
+    #global user
+    print(user)
+trial()    
+
+
+
+
+x = "A white one"
+def new():
+    x = "a red one"
+    description = "The ball is " + x
+    print(description)
+new()
+print(x)
+
+
+
+def classifier(identify):
+    return lambda age : identify + age
+
+description = classifier("my name is Daniel i am ")
+print(description("19"))
+ 

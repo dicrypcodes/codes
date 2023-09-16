@@ -9,4 +9,3 @@ name.append("Gbenga")
 name.pop(1)
 name.remove("Daniel")
 print(name)
-
