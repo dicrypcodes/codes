@@ -86,5 +86,13 @@ print(boys + girls)# if you use the + operator to combine a string and an intege
 clothe = "versace"# i created this global variable so as to use it inside the function
 def myfunction(): #this is the function created
      print("my clothe is " + clothe )
+myfunction()    
+
+gadget = "laptop"
+def mygadgets():
+     gadget = "phone"
+     print("the " + gadget + " belong to me")
+mygadgets()
+print("the " + gadget + " belong to me")
 
 
