@@ -38,3 +38,53 @@ figure = int(5) #this will be printed as 5
 #to get the type of a variable the type() is used
 number = 5
 print(type(name))
+
+#note: a string variable can be declared using a single or double quotation mark
+#note: python  is case sensitive meaning a and A are not same thing
+#note: python varibles
+#A variable name must start with a letter or the underscore character
+#A variable name cannot start with a number
+#A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+#Variable names are case-sensitive (age, Age and AGE are three different variables)
+#A variable name cannot be any of the Python keywords
+
+#Multiword variable name
+#Camel case: every word except the first start with a capital letter e.g myVariableName
+#pascal case: every word start with a capital e.g MyVariableName
+#snake case: every word is separated is separted with an underscore e.g my_variable_name
+
+#Assigning many value to mutliple variable
+landlord, house, owner = "my landlord", "is the house", "owner"
+print(landlord, house, owner )
+print(landlord)
+print(house)
+#makw sure the number of variable matches the number of the values assigned
+
+#Adding a value to multiple varible
+go=out=get=it= "done"
+print(go)
+print(out)
+print(get)
+print(it)
+
+#Unpacking a Collection
+fruits= ["mango ", "apple ", "cherry"]
+x,y,z=fruits
+print(x,y,z)#the print() can be use to output many variables at the same time, just separate with a comma
+#the plus operator can be use to output multiple variable 
+print( x + y + z)
+#the plus operator can be use to perfom mathematical operations too
+boys = 10
+girls = 22
+print(boys + girls)# if you use the + operator to combine a string and an integer, it won't work, but a comma can be used to output different data types
+
+
+#Global Variables: they are variables created outside a function, all example of variable above is a global variable
+#global variables can be created by anyone and can be used inside and outside the function
+#note: a fucntion is declared like this "def" then the function name with a bracker in front and a semicolon afterwards
+# example: 
+clothe = "versace"# i created this global variable so as to use it inside the function
+def myfunction(): #this is the function created
+     print("my clothe is " + clothe )
+
+
