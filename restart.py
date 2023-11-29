@@ -106,13 +106,33 @@ def newvariable():
 newvariable()
 print("the " + insert + " is in my hand")#when the global keyword is used, the varible can be use both inside the function and outside the function
 
+#the value of the global can be changed inside the function by refering to the variable using the glboal keyword
 x = "awesome"
-
 def myfunc():
   global x
   x = "fantastic"
-
 myfunc()
-
 print("Python is " + x)
 
+
+#Phyton Data Types: here are the data types in python
+#Text Type:	str
+#Numeric Types:	int, float, complex
+#Sequence Types:	list, tuple, range
+#Mapping Type:	dict
+#Set Types:	set, frozenset
+#Boolean Type:	bool
+#Binary Types:	bytes, bytearray, memoryview
+#None Type:	NoneType
+
+#the type() function is use to get the type of a data
+x = ("egg", "bread", "butter")#here is an example of a list
+print(x)
+print(type(x))#used the type function to get the type of data it was
+
+#we can set a data type to what we want it to be: meaning a tuple can be made to be a list and vice versa. same thing applied for the rest of the data types
+wants = ["garri", "groundnut", "indomie"]#here is a list
+#wants = tuple(wants)#here it's been turned to the tuple.
+wants = tuple(["garri", "groundnut", "indomie"])
+print(wants)
+print(type(wants))
