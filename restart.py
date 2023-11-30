@@ -132,7 +132,25 @@ print(type(x))#used the type function to get the type of data it was
 
 #we can set a data type to what we want it to be: meaning a tuple can be made to be a list and vice versa. same thing applied for the rest of the data types
 wants = ["garri", "groundnut", "indomie"]#here is a list
-#wants = tuple(wants)#here it's been turned to the tuple.
-wants = tuple(["garri", "groundnut", "indomie"])
+wants = tuple(wants)#here it's been turned to the tuple.
+wants = tuple(["garri", "groundnut", "indomie"])# this and the above is same thing, it can be set to tuple by any of the two
 print(wants)
 print(type(wants))
+
+#there are 3 numeric data types in python: int, float and complex
+#int(integer): they are whole numbers and example include 5, -6, 4334 etc...
+#float: Float can also be scientific numbers with an "e" to indicate the power of 10 
+#example of float include: 35e3, 12E4, -87.7e100
+#complex numbers: Complex numbers are written with a "j" as the imaginary part:
+#example 3+5j, 5j, -5j
+#a type can be converted form to another by using the function type
+#e.g
+count = 5#it is an interger here
+c = float(count)#and it has been changed to a float here
+print(c)
+#note: you can't covert from complex num to any other number
+
+#Random number: 
+import random
+print(random.randrange(1,10))
+
