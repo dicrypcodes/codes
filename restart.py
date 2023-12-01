@@ -152,5 +152,14 @@ print(c)
 
 #Random number: 
 import random
-print(random.randrange(1,10))
+print(random.randrange(1,10))#a random num will be printed on every single trial.
+
+#casting in python basically mean converting from one data type to another, e.g from float to str, float to interger and many more
+#strings
+a = """i am boy and i don't even know
+i school in fuoye
+i stay in idofin
+i have a landlord
+"""
+print(a)
 
