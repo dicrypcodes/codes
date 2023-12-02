@@ -152,7 +152,10 @@ print(c)
 
 #Random number: 
 import random
-print(random.randrange(1,10))#a random num will be printed on every single trial.
+print(random.randrange(1,10)) #a random num between 1 and 100 will be printed on every single trial.
+
+import random
+print(random.randrange(1,100)) # a radom num within 1 and 100 will be printed on every single trial
 
 #casting in python basically mean converting from one data type to another, e.g from float to str, float to interger and many more
 #strings
@@ -160,6 +163,29 @@ a = """i am boy and i don't even know
 i school in fuoye
 i stay in idofin
 i have a landlord
-"""
-print(a)
+"""#this is multiline string, and it can be printed
+print(a) #printing multiline string
+print(a[31]) # this will get the character at position number 31
+print(a[51]) #this will get the character at position number 51
+
+#Looping through a string 
+history = "once upon a time"#declared a variable       
+for x in history:# to loop through the variable, meaning to print every word in the variable
+     print(x)#calling the loop
+
+for x in "cassava":
+     print(x)     
+     
+#Obataining the length of a string
+names = "alias, fred, didier, samuel, wale"
+print(len(names))
+#how to check if a certain word or character in present is varible created
+print("alias" in names)#checking if alias is in the variable names which should print True because it's preent in there
+print("fred" in names)#checking if fred is in the variable names which should print True because it's present in there
+print("Daniel" in names)#checking if Daniel is in the variable names which should print false because it's not present in there
+#an if statement can also be used for same purpose, and you get assign a precise response you need it to deliver
+if "alias" in names:#using an if statement to check 
+     print("YES it is present!")#assigning the response i want it to give if "alias" is present
+if "Mango" not in names:
+     print("YES")   
 
