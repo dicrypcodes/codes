@@ -186,6 +186,14 @@ print("Daniel" in names)#checking if Daniel is in the variable names which shoul
 #an if statement can also be used for same purpose, and you get assign a precise response you need it to deliver
 if "alias" in names:#using an if statement to check 
      print("YES it is present!")#assigning the response i want it to give if "alias" is present
-if "Mango" not in names:
-     print("YES")   
+if "Mango" not in names:#using in the not in keyword to check if mango is present in names
+     print("YES")   #printing YES if mango is not present in names
+print("orange" not in names)#using the not in keyword without the if statement
 
+#Slicing Strings: You can return a range of characters by using the slice syntax.
+word = "A man can't be so careless to sit on his balls"
+print(word[1:10])#the characters that will be returned is 1 to the 9th character
+#note: first character starts from zero
+
+#String Indexing: Use negative indexes to start the slice from the end of the string:
+print(word[-8])
