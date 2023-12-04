@@ -1,4 +1,4 @@
-#first lineo of code after restarting python from scratch
+#first line of code after restarting python from scratch
 print("Hello, world!")
 
 #python identation
@@ -196,4 +196,28 @@ print(word[1:10])#the characters that will be returned is 1 to the 9th character
 #note: first character starts from zero
 
 #String Indexing: Use negative indexes to start the slice from the end of the string:
-print(word[-8])
+print(word[-8])#negative index start the counting from the back and start the counting from 1 and not 0 as it is in the postive index
+
+#Modifying Strings:python has built in function that can used to modify 
+#the upper() method return the string in upper case
+name = "adisa"
+print(name.upper())#the name adisa will be printed in all upper case letter
+print(name[:3])#just testing my knowledge on the string indexing
+#the lower() method return the string in all lower case
+name= "KING JAMES"
+print(name.lower())#this name KING JAMES will be printed in lower case letter
+
+#Removing whitespaces in python
+#white spaces are the space before or after a text
+#the are removed by using the .strip() method
+name= " Adis, Ababa   "
+print(name)#the spaces in front and the back of the text is still here
+print(name.strip())#using the .strip() method, the whitespace has being removed
+
+
+#Replacing String
+#the replace() method replaces a string with another string 
+doings = "Alex, berry"
+print(doings.replace("Alex", "d")) 
+print(doings.replace("berry", "d"))
+
