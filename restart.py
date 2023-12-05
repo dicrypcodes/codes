@@ -217,7 +217,14 @@ print(name.strip())#using the .strip() method, the whitespace has being removed
 
 #Replacing String
 #the replace() method replaces a string with another string 
-doings = "Alex, berry"
-print(doings.replace("Alex", "d")) 
-print(doings.replace("berry", "d"))
+doings = "Alex, berry"# string
+print(doings.replace("Alex", "d")) #this is to change the "Alex" to "d"
+print(doings.replace("berry", "d"))#this is to change the "Berry" to "d"
+
+#Split Strings: The split() method returns a list where the text between the specified separator becomes the list items.
+#The split() method splits the string into substrings if it finds instances of the separator:
+Day = "Good Morning, How are you?, hope you had a good night rest?"
+print(Day.split(","))#a list item is created the texted sperated with a comma in the string becomes the item
+print(Day.uppper())
+print(Day.lower())
 
