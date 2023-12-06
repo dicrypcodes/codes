@@ -225,6 +225,25 @@ print(doings.replace("berry", "d"))#this is to change the "Berry" to "d"
 #The split() method splits the string into substrings if it finds instances of the separator:
 Day = "Good Morning, How are you?, hope you had a good night rest?"
 print(Day.split(","))#a list item is created the texted sperated with a comma in the string becomes the item
-print(Day.uppper())
+print(Day.upper())
 print(Day.lower())
+
+#String Concatenation:to concantenate of join two string you can use the + operator
+a = "Hello"
+b = "World"
+c = a + b
+print(c)#the c is already concatinated 
+print(a + b)#concatenating while printing
+print(a + " " + b)#to add a space in between, you will use " "
+#Note: a string can't be added to an interger except we use the format() method
+#The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+age = 50
+context = "name"
+name = "Daniel"
+pronoun = "i"
+text = "My {} is {} and {} am {} years of age"
+print(text.format(context, name, pronoun, age))#format is used to add the age which is a 50 to the text
+#the format() can take unlimited number of arguments and her placed into respective placeholders
+
+
 
