@@ -243,7 +243,19 @@ name = "Daniel"
 pronoun = "i"
 text = "My {} is {} and {} am {} years of age"
 print(text.format(context, name, pronoun, age))#format is used to add the age which is a 50 to the text
-#the format() can take unlimited number of arguments and her placed into respective placeholders
+#the format() can take unlimited number of arguments and her placed into respective placeholders, example is above
+
+
+#a quick test on my knowledge on using the the format method to pass argument
+name = "Fred"
+complexion = "Dark"
+Age = "27"
+School ="FUOYE"
+paragraph= "my name is {}, i am {} in complexion and i {} of age. i am on aluminous of {}"
+print(paragraph.format(name, complexion,Age, School, paragraph))
+#the index can also be used to place them where they are wanted
+paragraph = "even if {1} said he is not interested in {3} and {2} we will make sure {0} does"
+print(paragraph.format(name, complexion, Age, School))
 
 
 
