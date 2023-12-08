@@ -254,8 +254,15 @@ School ="FUOYE"
 paragraph= "my name is {}, i am {} in complexion and i {} of age. i am on aluminous of {}"
 print(paragraph.format(name, complexion,Age, School, paragraph))
 #the index can also be used to place them where they are wanted
-paragraph = "even if {1} said he is not interested in {3} and {2} we will make sure {0} does"
+paragraph = "even if {1} said he is not interested in {3} and {2} we will make sure {0} does"#the index way was used here
 print(paragraph.format(name, complexion, Age, School))
+
+#Escape Character
+#to insert characters that are illegal in a string, you make use of the escape character
+# which is a backslash \ followed by the character you want to add
+# an example of a illgal character a double quotation in a double quotation
+txt = "the \"vikings\" visit the villagers"
+print(txt)
 
 
 
