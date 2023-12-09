@@ -261,8 +261,17 @@ print(paragraph.format(name, complexion, Age, School))
 #to insert characters that are illegal in a string, you make use of the escape character
 # which is a backslash \ followed by the character you want to add
 # an example of a illgal character a double quotation in a double quotation
-txt = "the \"vikings\" visit the villagers"
+txt = "the \"vikings\" visit the villagers"#python is going to ignore the double quote and print it. 
 print(txt)
-
-
-
+txt = "the world around us has changed \nbut the adivise have not changed"#\n is to break and start a new line
+print(txt)
+txt = "i got the best\radivice until i need to advise myself"
+print(txt)
+txt = "Hello\tWorld!"#this is a tab feature
+print(txt)
+txt = "sally sell sea \bshell at the sea shore"#this is the backspace feature
+print(txt)
+txt = "Life is box \fof chocolate"#the form weed escape character
+print(txt)
+txt = "we are the \000monster you made"
+print(txt)
