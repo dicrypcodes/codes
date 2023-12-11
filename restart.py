@@ -275,3 +275,29 @@ txt = "Life is box \fof chocolate"#the form weed escape character
 print(txt)
 txt = "we are the \000monster you made"
 print(txt)
+#Using String characters
+a = "car"
+print(a.capitalize())#to capitalize the first character
+b = "EGG"
+print(b.casefold())#convert string into lower case
+c = "Wale"
+d = c.center(30)#the name wale will take up the space of 30 characters with wale in the middle
+print(d)
+e = "good"
+f = e.center(20, "D")#the D character feels the the space the centered character left
+print(f)
+print(f.count("D"))#to know the amount of times "D" appeared
+print(f.count("D", 10,20))#how many "D" character was printed within the range of 10 and 20
+
+g = "Alabama"
+h = g.encode()
+print(h)
+
+txt = "My name is Ståle"
+
+print(txt.encode(encoding="ascii",errors="backslashreplace"))
+print(txt.encode(encoding="ascii",errors="ignore"))
+print(txt.encode(encoding="ascii",errors="namereplace"))
+print(txt.encode(encoding="ascii",errors="replace"))
+print(txt.encode(encoding="ascii",errors="xmlcharrefreplace"))
+
