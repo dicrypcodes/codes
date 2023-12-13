@@ -347,4 +347,19 @@ def myfunc():
     return True
 print(myfunc())
 
+#code can be executed based on the answer of the function
+def mycodes():
+    return True#since this is set to be true, then the function will be printed taking the True condion 
+if mycodes():
+    print("my codes is correct")
+else:
+    print("the codes are not running")
+
+def codes():
+    return False#this condition is false, so the code will printed on the false condition
+if codes():
+    print("you are doing well")
+else:
+    print("re-run the codes")    
+    
 
