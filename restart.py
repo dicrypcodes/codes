@@ -290,14 +290,61 @@ print(f.count("D"))#to know the amount of times "D" appeared
 print(f.count("D", 10,20))#how many "D" character was printed within the range of 10 and 20
 
 g = "Alabama"
-h = g.encode()
+h = g.encode()#return a encoded version of the string
 print(h)
 
+#copy the below from the https://www.w3schools.com/python/ref_string_encode.asp
 txt = "My name is Ståle"
-
 print(txt.encode(encoding="ascii",errors="backslashreplace"))
 print(txt.encode(encoding="ascii",errors="ignore"))
 print(txt.encode(encoding="ascii",errors="namereplace"))
 print(txt.encode(encoding="ascii",errors="replace"))
 print(txt.encode(encoding="ascii",errors="xmlcharrefreplace"))
+
+#https://www.w3schools.com/python/python_ref_string.asp
+#to find the remaning string characters
+
+#PYTHON BOOLEAN
+#Booleans represent one of two values: True or False.
+#You can evaluate any expression in Python, and get one of two answers, True or False.
+print(9>5)#if this statement is true, it's going to print true and if otherwise, it's going to false
+print(10==9)#will print false because statement is not true
+#When you run a condition in an if statement, Python returns True or False:
+Adeola = 19
+mercy = 20
+if mercy > Adeola :
+     print("she is older than her")
+else:
+     print("she is not older than her")     
+#Evaluate value and variables
+print(bool("A girl"))
+print(bool(45)) 
+
+x = "a boy"
+y = "978"
+print(bool(x))
+print(bool(y))
+#Almost every value is "True" if it has some sort of content
+#any number is "True" except 0
+print(bool(0))
+#Any list, tuple, set, and dictionary are True, except empty ones.
+car = ["benz", "camry", "bmw", "rav4"]
+box = []
+print(bool(car))#this list is goign to print True
+print(bool(box))#this is an empty list it's going to print false
+
+#Some values are false
+#In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
+class myclass():
+  def __len__(self):
+    return 0
+
+myobj = myclass()
+print(bool(myobj))
+
+#Functions can return a boolean
+def myfunc():
+    return True
+print(myfunc())
+
 
