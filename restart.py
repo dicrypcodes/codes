@@ -375,11 +375,24 @@ def mycontent():
         print("the content are not in any of the codes above")   
 mycontent()
 print("i wake up " + content)
- 
+
+#just reheasing  
 math = 8 * 0
 math_2 = 9*2
-print(math, math_2 + 5)
+math_3 = 8/2
+print(math, math_2 + 5, math_3)
 
+#Python Operators: Here are the list of operators we have in python
+                    #Arithmetic operators: +, -, /, *, %, **, //
+                    #Assignment operators
+                    #Comparison operators
+                    #Logical operators
+                    #Identity operators
+                    #Membership operators
+                    #Bitwise operators
+
+maths = 2**3
+print(maths)
 
 
     
