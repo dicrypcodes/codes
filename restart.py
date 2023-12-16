@@ -361,5 +361,26 @@ if codes():
     print("you are doing well")
 else:
     print("re-run the codes")    
+
+#just freehanding codes
+content = "another day to be alive and to be grateful"
+def mycontent():
+    #global content#this will make the variable "content" inside the fuction will print on a global scale
+    content ="music connect to the soul"
+    if "another" in content:
+      print("the content printed from is content one ")
+    elif "music" in content:
+        print("music is present in the content two") 
+    else:
+        print("the content are not in any of the codes above")   
+mycontent()
+print("i wake up " + content)
+ 
+math = 8 * 0
+math_2 = 9*2
+print(math, math_2 + 5)
+
+
+
     
 
