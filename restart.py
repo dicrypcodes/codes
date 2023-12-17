@@ -384,15 +384,28 @@ print(math, math_2 + 5, math_3)
 
 #Python Operators: Here are the list of operators we have in python
                     #Arithmetic operators: +, -, /, *, %, **, //
-                    #Assignment operators
+                    #Assignment operators: =, x+=3(x+3), x-=3(x-3), x/=3(x/3), x*=3(x*3), etc
                     #Comparison operators
                     #Logical operators
                     #Identity operators
                     #Membership operators
                     #Bitwise operators
 
-maths = 2**3
+maths = 2**3#tested exponential
 print(maths)
+
+xx = 5
+maths3 = 3 + xx
+maths4 = maths - 4
+print(maths3)
+print(maths4)
+
+maths5 = 2^4
+print(maths5)
+
+maths6 = 10>>4
+print(maths6)
+
 
 
     
