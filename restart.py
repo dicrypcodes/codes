@@ -390,6 +390,7 @@ print(math, math_2 + 5, math_3)
                     #Identity operators
                     #Membership operators
                     #Bitwise operators
+#make reference to the operators here https://www.w3schools.com/python/python_operators.asp
 
 maths = 2**3#tested exponential
 print(maths)
@@ -400,11 +401,35 @@ maths4 = maths - 4
 print(maths3)
 print(maths4)
 
-maths5 = 2^4
+maths5 = 2^4#binary related
 print(maths5)
 
-maths6 = 10>>4
+maths6 = 10>>4#binary related
 print(maths6)
+
+#Python List
+#Lists are used to store multiple items in a single variable.
+#Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+#example of list
+fruits= ["apple", "mango", "grape", "apple"]
+#List items are ordered, changeable, and allow duplicate values.
+#List items are indexed, the first item has index [0], the second item has index [1] etc.
+#list item allow duplicate
+#the len function is obtain is use to obtain the len of the function
+print(len(fruits))
+#python list can accomodate any list items, boolean, string, integer
+list1 = ["Daniel", "Fisayo", "Favour"]
+list2 = [True, False]
+list3 = [23, 425, 33]
+print(list1, list2, list3)
+#A list can contain different data types
+list4 = ["Google", True, 49]
+print(list4)
+#to know the type a data belong to you can use the type() function
+#It is also possible to use the list() constructor when creating a new list
+list5 = list(("alarm", "bang", True, 67))
+print(type(list5))
+
 
 
 
