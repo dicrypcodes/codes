@@ -430,6 +430,41 @@ print(list4)
 list5 = list(("alarm", "bang", True, 67))
 print(type(list5))
 
+#List is a collection which is ordered and changeable. Allows duplicate members.
+#Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+#Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+#Dictionary is a collection which is ordered** and changeable. No duplicate members
+
+#Testing out functions from today's class
+#i am about to write a code that will show the biggest of two numbers
+#using the "return" statement
+def the_bigger():
+    a = input("Enter the first number")
+    b = input("Enter the second number")
+    if a > b:
+        return a
+    elif b >a:
+        return b
+    else:
+        return "Equals"
+largest_number = the_bigger()
+print(largest_number)
+
+#using the print statement
+def large_num():
+    c = input("enter the first digit")
+    d = input("enter the second digit")
+    if c > d:
+        print(c)
+    elif c < d :
+        print(d)
+    elif c==d :
+        print("Equals")  
+    else:
+        print("No condtion is satisfied")
+
+    
+
 
 
 
