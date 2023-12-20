@@ -463,6 +463,15 @@ def large_num():
     else:
         print("No condtion is satisfied")
 
+
+def the_function(a,b):
+    sum = a + b
+    return sum
+add = the_function(5,10)
+print(add)
+
+
+
     
 
 
