@@ -438,7 +438,7 @@ print(type(list5))
 #Testing out functions from today's class
 #i am about to write a code that will show the biggest of two numbers
 #using the "return" statement
-def the_bigger():
+"""def the_bigger():
     a = input("Enter the first number")
     b = input("Enter the second number")
     if a > b:
@@ -462,13 +462,58 @@ def large_num():
         print("Equals")  
     else:
         print("No condtion is satisfied")
-
+"""
 
 def the_function(a,b):
     sum = a + b
     return sum
 add = the_function(5,10)
 print(add)
+
+
+#Asimple calculaor that can add, substract, multiply and divide
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y != 0:
+        return x / y
+    else:
+        return "Cannot divide by zero"
+
+def calculator():
+    print("Simple Calculator")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+    choice = input("Enter choice(1/2/3/4):")
+    num1 = float(input("Enter num one:"))
+    num2 = float(input("Enter second num:"))
+    if choice == "1":
+        result = add(num1, num2)
+        print("result", result)
+    elif choice == "2":
+        result = subtract(num1,num2)
+        print("result", result)
+    elif choice == "3":
+        result = multiply(num1,num2)  
+        print("result", result)
+    elif choice == "4":
+        result = divide(num1, num2)
+        print("result", result)
+    elif choice != "1" "2" "3" "4":
+        print("invalid input")
+    
+calculator()    
+
+
 
 
 
