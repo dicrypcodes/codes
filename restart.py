@@ -514,6 +514,29 @@ def calculator():
 calculator()    
 
 
+def addition(a,b):
+    return a + b 
+def substraction(a,b):
+    return a - b
+def multiplication(a,b):
+    return a * b
+def division(a,b):
+    return a/b
+
+def simple_calculator():
+    choice = (1,2,3,4)
+    print("simple calculator")
+    print("1. addition")
+    print("2. substraction")
+    print("3. multiplication")
+    print("4. division")
+
+    if choice == "1":
+        return add(a)
+
+
+
+
 
 
 
