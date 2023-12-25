@@ -1,4 +1,4 @@
-"""import numpy as np
+import numpy as np
 from scipy.stats import skew, kurtosis
 
 # Given data
@@ -31,7 +31,7 @@ print(f"Median: {median_rating}")
 print(f"Mode: {mode_rating}")
 print(f"Skewness: {skewness_rating}")
 print(f"Kurtosis: {kurtosis_rating}")
-"""
+
 
 import scipy.stats as stats
 
